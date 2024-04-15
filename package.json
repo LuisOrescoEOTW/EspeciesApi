@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "generate": "drizzle-kit generate:sqlite --out migrations-folder --schema src/db/schema.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.9.0",
+    "better-sqlite3": "^9.4.5",
+    "drizzle-orm": "^0.30.7",
+    "hono": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "drizzle-kit": "^0.20.14",
+    "tsx": "^4.7.1"
+  }
+}
