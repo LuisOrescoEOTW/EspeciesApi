@@ -2,6 +2,8 @@
 
 - node 18+
 
+## Luis Orescovich
+
 ## Puesta en marcha
 
 1. `clonar repo`
