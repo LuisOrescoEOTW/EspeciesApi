@@ -10,6 +10,7 @@
     "hono": "^4.2.2"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.10",
     "@types/node": "^20.11.17",
     "drizzle-kit": "^0.20.14",
     "tsx": "^4.7.1"
