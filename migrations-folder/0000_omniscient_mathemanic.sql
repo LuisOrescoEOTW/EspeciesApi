@@ -8,5 +8,5 @@ CREATE TABLE `especies` (
 	`nombre_cientifico` text,
 	`origen` text,
 	`imagen` text,
-	`likes` integer DEFAULT 0
+	`reportes` integer DEFAULT 0
 );

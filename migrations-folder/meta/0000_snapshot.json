@@ -1,7 +1,7 @@
 {
   "version": "5",
   "dialect": "sqlite",
-  "id": "8263329c-28e7-47f3-b7a2-1e194975f1e8",
+  "id": "61088468-f914-490d-a00f-88dcf72a47ec",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "especies": {
@@ -70,8 +70,8 @@
           "notNull": false,
           "autoincrement": false
         },
-        "likes": {
-          "name": "likes",
+        "reportes": {
+          "name": "reportes",
           "type": "integer",
           "primaryKey": false,
           "notNull": false,

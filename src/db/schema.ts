@@ -10,7 +10,7 @@ export const especies = sqliteTable("especies", {
   nombre_cientifico: text("nombre_cientifico"),
   origen: text("origen"),
   imagen: text("imagen"),
-  likes: integer("likes").default(0),
+  reportes: integer("reportes").default(0),
 });
 
 export type Especie = typeof especies.$inferSelect;
